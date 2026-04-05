@@ -1,0 +1,86 @@
+2026-03-30 17:38:02 INFO Pipeline started
+2026-03-30 17:38:03 INFO HTTP Request: POST https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr/runs "HTTP/1.1 201 Created"
+2026-03-30 17:38:03 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:03 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-03-30 17:38:03 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:03 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:03 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-03-30 17:38:03 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3/log?stream=1&raw=1 "HTTP/1.1 200 OK"
+2026-03-30 17:38:04 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:04 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3?waitForFinish=999999 "HTTP/1.1 200 OK"
+2026-03-30 17:38:05 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:06 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:07 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:08 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:09 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:10 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:11 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:12 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:13 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:14 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:15 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:17 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:18 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:19 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:20 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:21 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:22 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:23 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:24 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:25 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:26 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:27 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:28 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:29 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:30 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:31 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:32 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:33 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/5gdeLpLeFDHvTcdz3 "HTTP/1.1 200 OK"
+2026-03-30 17:38:33 INFO HTTP Request: GET https://api.apify.com/v2/datasets/c7ORLxmoDjWuL7F3f/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2026-03-30 17:38:33 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:33 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:33 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:33 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:33 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:33 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:33 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:33 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:33 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:33 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:33 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:33 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:33 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:34 INFO AFC is enabled with max remote calls: 10.
+2026-03-30 17:38:34 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-03-30 17:38:35 ERROR Google Sheets error: Out of range float values are not JSON compliant
+2026-03-30 17:38:35 INFO Pipeline completed successfully
