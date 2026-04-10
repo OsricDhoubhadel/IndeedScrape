@@ -6,14 +6,23 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S'
 )
 
-import time
+import asyncio
 from pathlib import Path
 from scraper import fetch_jobs
 from transformer import load_resume, tailor_resume
 from storage import save_jobs_to_csv
 from sheets import upload_to_sheets
 
-def run_pipeline():
+async def tailor_job_resume(job, resume_header, resume_text):
+    """Tailor resume for a single job."""
+    description = job.get("descriptionText", "")
+    print(f"Tailoring resume for job: {job.get('title', 'N/A')}")
+    tailored_resume = await tailor_resume(description, resume_text)
+    tailored_resume = f"{resume_header}\n\n{tailored_resume}"
+    job["tailored_resume"] = tailored_resume
+    return job
+
+async def run_pipeline():
     logging.info("Pipeline started")
 
     jobs = fetch_jobs()
@@ -24,20 +33,11 @@ def run_pipeline():
     logging.info(f"Starting resume tailoring")
     resume_header = Path("resume-header.md").read_text(encoding="utf-8")
     resume_text = load_resume()
-    enriched_jobs = []
     logging.info(f"Starting to tailor resumes for each job")
 
-    for job in jobs:
-        description = job.get("descriptionText", "")
-        print(f"Tailoring resume for job: {job.get('title', 'N/A')}")
-        tailored_resume = tailor_resume(description, resume_text)
-        tailored_resume = f"{resume_header}\n\n{tailored_resume}"
-
-        job["tailored_resume"] = tailored_resume
-
-        enriched_jobs.append(job)
-
-        time.sleep(5)  # To avoid hitting API rate limits
+    # Process all jobs concurrently
+    tasks = [tailor_job_resume(job, resume_header, resume_text) for job in jobs]
+    enriched_jobs = await asyncio.gather(*tasks)
 
     logging.info(f"Finished tailoring resumes. Now saving to CSV and uploading to Google Sheets.")
     save_jobs_to_csv(enriched_jobs)
@@ -46,4 +46,4 @@ def run_pipeline():
     logging.info("Pipeline completed successfully")
 
 if __name__ == "__main__":
-    run_pipeline()
+    asyncio.run(run_pipeline())

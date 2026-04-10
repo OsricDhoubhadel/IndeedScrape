@@ -3,7 +3,8 @@ import json
 import logging
 import time
 from dotenv import load_dotenv
-import requests
+import aiohttp
+import asyncio
 
 load_dotenv()
 
@@ -24,7 +25,7 @@ def load_resume():
         return ""
 
 
-def tailor_resume(job_description, resume_text):
+async def tailor_resume(job_description, resume_text):
     if not resume_text:
         logging.warning("Resume text is empty. Skipping tailoring.")
         return ""
@@ -85,60 +86,57 @@ def tailor_resume(job_description, resume_text):
     max_retries = 5
     retry_delay = 20
 
-    for attempt in range(max_retries):
-        try:
-            response = requests.post(
-                OPENROUTER_API_URL,
-                headers=headers,
-                data=json.dumps(payload),
-                timeout=60,
-            )
+    async with aiohttp.ClientSession() as session:
+        for attempt in range(max_retries):
+            try:
+                async with session.post(
+                    OPENROUTER_API_URL,
+                    headers=headers,
+                    json=payload,
+                    timeout=aiohttp.ClientTimeout(total=60),
+                ) as response:
+                    if response.status == 429:
+                        raise aiohttp.ClientError("429 Rate limit")
 
-            if response.status_code == 429:
-                raise requests.exceptions.HTTPError("429 Rate limit", response=response)
+                    response.raise_for_status()
+                    data = await response.json()
 
-            response.raise_for_status()
-            data = response.json()
+                    model_used = data.get("model")
+                    if model_used:
+                        logging.info(f"OpenRouter model used: {model_used}")
 
-            model_used = data.get("model")
-            if model_used:
-                logging.info(f"OpenRouter model used: {model_used}")
+                    choices = data.get("choices", [])
+                    if not choices:
+                        logging.warning("OpenRouter returned no choices.")
+                        return ""
 
-            choices = data.get("choices", [])
-            if not choices:
-                logging.warning("OpenRouter returned no choices.")
+                    message = choices[0].get("message", {})
+                    raw_content = message.get("content", "")
+                    if not raw_content:
+                        logging.warning("OpenRouter returned an empty message.")
+                        return ""
+
+                    return raw_content.replace("```markdown", "").replace("```", "").strip()
+
+            except aiohttp.ClientError as e:
+                if "429" in str(e) and attempt < max_retries - 1:
+                    logging.warning(f"Rate limit hit. Retrying in {retry_delay}s (Attempt {attempt + 1}/{max_retries})...")
+                    await asyncio.sleep(retry_delay)
+                    retry_delay *= 2
+                    continue
+                logging.error(f"OpenRouter error: {e}")
                 return ""
-
-            message = choices[0].get("message", {})
-            raw_content = message.get("content", "")
-            if not raw_content:
-                logging.warning("OpenRouter returned an empty message.")
+            except asyncio.TimeoutError as e:
+                if attempt < max_retries - 1:
+                    logging.warning(f"OpenRouter request timeout. Retrying in {retry_delay}s (Attempt {attempt + 1}/{max_retries})...")
+                    await asyncio.sleep(retry_delay)
+                    retry_delay *= 2
+                    continue
+                logging.error(f"OpenRouter request timeout: {e}")
                 return ""
-
-            return raw_content.replace("```markdown", "").replace("```", "").strip()
-
-        except requests.exceptions.HTTPError as e:
-            status_code = None
-            if hasattr(e, 'response') and e.response is not None:
-                status_code = e.response.status_code
-            if status_code == 429 and attempt < max_retries - 1:
-                logging.warning(f"Rate limit hit. Retrying in {retry_delay}s (Attempt {attempt + 1}/{max_retries})...")
-                time.sleep(retry_delay)
-                retry_delay *= 2
-                continue
-            logging.error(f"OpenRouter HTTP error: {e}")
-            return ""
-        except requests.exceptions.RequestException as e:
-            if attempt < max_retries - 1:
-                logging.warning(f"OpenRouter request failed. Retrying in {retry_delay}s (Attempt {attempt + 1}/{max_retries})...")
-                time.sleep(retry_delay)
-                retry_delay *= 2
-                continue
-            logging.error(f"OpenRouter request error: {e}")
-            return ""
-        except ValueError as e:
-            logging.error(f"Failed to parse OpenRouter response: {e}")
-            return ""
+            except ValueError as e:
+                logging.error(f"Failed to parse OpenRouter response: {e}")
+                return ""
 
     logging.error("Max retries exceeded for OpenRouter. Skipping this job.")
     return ""
