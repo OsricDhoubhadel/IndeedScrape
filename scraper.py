@@ -16,8 +16,9 @@ def fetch_jobs():
             "includeSimilarJobs": True,
             # "jobType": "freelance",
             "location": "Canada",
-            "maxRows": 15,
-            "query": "(Python OR Javascript)  -jobbank -cybersecurity -French -\"Développeur\" -\"Spécialiste\" -\"ingénierie\" -\"Professionnel\" -\"Analyste\" -\"Architecte\" -\"Administrateur\" -\"Support\" -\"Technicien\" -\"Testeur\" -\"QA\" -\"Assurance Qualité\" -\"développement\" -\"Programmeur\" -\"Spécialiste\"",
+            "maxRows": 10,
+            "query": "Project Manager -jobbank -French -\"Développeur\" -\"Spécialiste\" -\"ingénierie\" -\"Professionnel\" -\"Analyste\"",
+            # "query": "(Python OR Javascript)  -jobbank -cybersecurity -French -\"Développeur\" -\"Spécialiste\" -\"ingénierie\" -\"Professionnel\" -\"Analyste\" -\"Architecte\" -\"Administrateur\" -\"Support\" -\"Technicien\" -\"Testeur\" -\"QA\" -\"Assurance Qualité\" -\"développement\" -\"Programmeur\" -\"Spécialiste\"",
             "radius": "100",
             "sort": "date"
         }

@@ -12,11 +12,12 @@ def save_jobs_to_csv(jobs):
         df = pd.DataFrame(jobs)
 
         file_exists = os.path.isfile(CSV_FILE)
+        file_is_empty = file_exists and os.path.getsize(CSV_FILE) == 0
 
         df.to_csv(
             CSV_FILE,
-            mode='a' if file_exists else 'w',
-            header=not file_exists,
+            mode='a' if file_exists and not file_is_empty else 'w',
+            header=not file_exists or file_is_empty,
             index=False
         )
 

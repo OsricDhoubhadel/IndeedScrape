@@ -84,3 +84,273 @@
 2026-03-30 17:38:34 ERROR Gemini error: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
 2026-03-30 17:38:35 ERROR Google Sheets error: Out of range float values are not JSON compliant
 2026-03-30 17:38:35 INFO Pipeline completed successfully
+2026-04-05 19:34:29 INFO Pipeline started
+2026-04-05 19:34:30 INFO HTTP Request: POST https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr/runs "HTTP/1.1 201 Created"
+2026-04-05 19:34:30 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:30 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-04-05 19:34:30 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:30 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:30 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-04-05 19:34:30 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC/log?stream=1&raw=1 "HTTP/1.1 200 OK"
+2026-04-05 19:34:31 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:31 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC?waitForFinish=999999 "HTTP/1.1 200 OK"
+2026-04-05 19:34:32 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:33 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:34 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:35 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:36 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:37 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:38 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:39 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:40 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:41 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:42 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:43 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:44 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:45 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:46 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:48 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:49 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:50 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:51 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:52 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:53 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:54 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:55 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:56 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:57 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:58 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:34:59 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:35:00 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:35:01 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:35:02 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:35:03 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/BCvdHE5IkLHnjccAC "HTTP/1.1 200 OK"
+2026-04-05 19:35:03 INFO HTTP Request: GET https://api.apify.com/v2/datasets/2pd4ozK2i51vfyJIa/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2026-04-05 19:35:03 INFO Fetched 15 jobs
+2026-04-05 19:35:03 INFO Starting resume tailoring
+2026-04-05 19:35:03 INFO Starting to tailor resumes for each job
+2026-04-05 19:35:03 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:35:03 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:35:03 WARNING Rate limit hit. Retrying in 20s (Attempt 1/5)...
+2026-04-05 19:35:23 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:35:23 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:35:23 WARNING Rate limit hit. Retrying in 40s (Attempt 2/5)...
+2026-04-05 19:36:04 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:36:04 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:36:04 WARNING Rate limit hit. Retrying in 80s (Attempt 3/5)...
+2026-04-05 19:37:24 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:37:24 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:37:24 WARNING Rate limit hit. Retrying in 160s (Attempt 4/5)...
+2026-04-05 19:40:04 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:40:04 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:40:04 ERROR Max retries exceeded for Rate Limit. Skipping this job.
+2026-04-05 19:40:09 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:40:09 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:40:09 WARNING Rate limit hit. Retrying in 20s (Attempt 1/5)...
+2026-04-05 19:40:29 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:40:29 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:40:29 WARNING Rate limit hit. Retrying in 40s (Attempt 2/5)...
+2026-04-05 19:41:09 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:41:09 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:41:09 WARNING Rate limit hit. Retrying in 80s (Attempt 3/5)...
+2026-04-05 19:42:29 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:42:29 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:42:29 WARNING Rate limit hit. Retrying in 160s (Attempt 4/5)...
+2026-04-05 19:45:09 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:45:10 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:45:10 ERROR Max retries exceeded for Rate Limit. Skipping this job.
+2026-04-05 19:45:15 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:45:15 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:45:15 WARNING Rate limit hit. Retrying in 20s (Attempt 1/5)...
+2026-04-05 19:45:35 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:45:35 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:45:35 WARNING Rate limit hit. Retrying in 40s (Attempt 2/5)...
+2026-04-05 19:46:15 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:46:15 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:46:15 WARNING Rate limit hit. Retrying in 80s (Attempt 3/5)...
+2026-04-05 19:47:35 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:47:35 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:47:35 WARNING Rate limit hit. Retrying in 160s (Attempt 4/5)...
+2026-04-05 19:50:15 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:50:15 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:50:15 ERROR Max retries exceeded for Rate Limit. Skipping this job.
+2026-04-05 19:50:20 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:50:20 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:50:20 WARNING Rate limit hit. Retrying in 20s (Attempt 1/5)...
+2026-04-05 19:50:40 INFO AFC is enabled with max remote calls: 10.
+2026-04-05 19:50:40 INFO HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-04-05 19:50:40 WARNING Rate limit hit. Retrying in 40s (Attempt 2/5)...
+2026-04-06 23:08:29 INFO Pipeline started
+2026-04-06 23:08:29 INFO HTTP Request: POST https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr/runs "HTTP/1.1 201 Created"
+2026-04-06 23:08:29 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:29 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-04-06 23:08:29 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:30 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:30 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-04-06 23:08:30 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk/log?stream=1&raw=1 "HTTP/1.1 200 OK"
+2026-04-06 23:08:31 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:31 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk?waitForFinish=999999 "HTTP/1.1 200 OK"
+2026-04-06 23:08:32 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:33 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:34 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:35 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:36 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:37 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:38 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:39 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:40 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:41 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:42 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:43 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:44 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:45 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:46 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:47 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:48 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:49 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:50 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:51 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:52 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:53 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:54 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:55 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:56 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:57 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:08:59 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:00 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:01 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:02 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:03 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:04 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:05 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:06 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:07 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:08 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/uxDT1LT9nHenWELuk "HTTP/1.1 200 OK"
+2026-04-06 23:09:08 INFO HTTP Request: GET https://api.apify.com/v2/datasets/Dq2DouTJmqfa7Grgk/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2026-04-06 23:09:08 INFO Fetched 15 jobs
+2026-04-06 23:09:08 INFO Starting resume tailoring
+2026-04-06 23:09:08 INFO Starting to tailor resumes for each job
+2026-04-06 23:09:08 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:13 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:18 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:23 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:28 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:33 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:38 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:43 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:48 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:53 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:09:58 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:10:03 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:10:08 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:10:13 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:10:18 ERROR OPENROUTER_API_KEY not found in environment variables.
+2026-04-06 23:10:23 INFO Finished tailoring resumes. Now saving to CSV and uploading to Google Sheets.
+2026-04-06 23:10:24 INFO Successfully uploaded data to Google Sheets.
+2026-04-06 23:10:24 INFO Pipeline completed successfully
+2026-04-06 23:15:32 INFO Pipeline started
+2026-04-06 23:15:33 INFO HTTP Request: POST https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr/runs "HTTP/1.1 201 Created"
+2026-04-06 23:15:33 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:33 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-04-06 23:15:33 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:33 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:33 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-04-06 23:15:33 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD/log?stream=1&raw=1 "HTTP/1.1 200 OK"
+2026-04-06 23:15:34 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:34 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD?waitForFinish=999999 "HTTP/1.1 200 OK"
+2026-04-06 23:15:35 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:36 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:37 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:38 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:39 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:40 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:41 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:42 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:43 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:44 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:45 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:47 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:48 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:49 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:50 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:51 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:52 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:53 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:54 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:55 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:56 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:57 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:58 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:15:59 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:16:00 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:16:01 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:16:02 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:16:03 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/AAHmgCAJ5ZJ605YhD "HTTP/1.1 200 OK"
+2026-04-06 23:16:03 INFO HTTP Request: GET https://api.apify.com/v2/datasets/xNiGrKcCP3wfhCXbL/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2026-04-06 23:16:03 INFO Fetched 10 jobs
+2026-04-06 23:16:03 INFO Starting resume tailoring
+2026-04-06 23:16:03 INFO Starting to tailor resumes for each job
+2026-04-06 23:18:14 INFO OpenRouter model used: minimax/minimax-m2.5-20260211:free
+2026-04-06 23:18:25 INFO OpenRouter model used: liquid/lfm-2.5-1.2b-thinking-20260120:free
+2026-04-06 23:20:04 INFO OpenRouter model used: qwen/qwen3.6-plus-04-02:free
+2026-04-06 23:24:11 INFO OpenRouter model used: minimax/minimax-m2.5-20260211:free
+2026-04-06 23:24:23 INFO OpenRouter model used: liquid/lfm-2.5-1.2b-thinking-20260120:free
+2026-04-06 23:24:31 INFO OpenRouter model used: liquid/lfm-2.5-1.2b-instruct-20260120:free
+2026-04-06 23:25:05 INFO OpenRouter model used: arcee-ai/trinity-large-preview:free
+2026-04-06 23:25:34 INFO OpenRouter model used: stepfun/step-3.5-flash:free
+2026-04-06 23:25:48 INFO OpenRouter model used: arcee-ai/trinity-mini-20251201:free
+2026-04-06 23:25:59 INFO OpenRouter model used: nvidia/nemotron-3-nano-30b-a3b:free
+2026-04-06 23:26:04 INFO Finished tailoring resumes. Now saving to CSV and uploading to Google Sheets.
+2026-04-06 23:26:06 INFO Successfully uploaded data to Google Sheets.
+2026-04-06 23:26:06 INFO Pipeline completed successfully
+2026-04-07 19:18:47 INFO Pipeline started
+2026-04-07 19:18:47 INFO HTTP Request: POST https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr/runs "HTTP/1.1 201 Created"
+2026-04-07 19:18:47 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:47 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-04-07 19:18:48 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:48 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:48 INFO HTTP Request: GET https://api.apify.com/v2/acts/MXLpngmVpE8WTESQr "HTTP/1.1 200 OK"
+2026-04-07 19:18:48 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat/log?stream=1&raw=1 "HTTP/1.1 200 OK"
+2026-04-07 19:18:49 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat?waitForFinish=999999 "HTTP/1.1 200 OK"
+2026-04-07 19:18:49 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:50 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:51 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:52 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:53 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:54 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:55 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:56 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:57 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:58 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:18:59 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:00 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:01 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:02 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:03 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:04 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:05 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:06 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:08 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:09 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:10 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:11 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:12 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:13 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:14 INFO HTTP Request: GET https://api.apify.com/v2/actor-runs/o7WSfGKVZnPF6Gaat "HTTP/1.1 200 OK"
+2026-04-07 19:19:14 INFO HTTP Request: GET https://api.apify.com/v2/datasets/PtOimX2nf4IDe7FhP/items?offset=0&limit=1000 "HTTP/1.1 200 OK"
+2026-04-07 19:19:14 INFO Fetched 10 jobs
+2026-04-07 19:19:14 INFO Starting resume tailoring
+2026-04-07 19:19:14 INFO Starting to tailor resumes for each job
+2026-04-07 19:19:17 INFO OpenRouter model used: arcee-ai/trinity-mini-20251201:free
+2026-04-07 19:28:02 INFO OpenRouter model used: minimax/minimax-m2.5-20260211:free
+2026-04-07 19:28:55 INFO OpenRouter model used: minimax/minimax-m2.5-20260211:free
+2026-04-07 19:29:55 INFO OpenRouter model used: nvidia/nemotron-nano-12b-v2-vl:free
+2026-04-07 19:34:03 INFO OpenRouter model used: z-ai/glm-4.5-air:free
+2026-04-07 19:34:39 INFO OpenRouter model used: nvidia/nemotron-nano-12b-v2-vl:free
+2026-04-07 19:34:51 INFO OpenRouter model used: arcee-ai/trinity-mini-20251201:free
+2026-04-07 19:36:30 INFO OpenRouter model used: nvidia/nemotron-nano-12b-v2-vl:free
+2026-04-07 19:36:40 INFO OpenRouter model used: liquid/lfm-2.5-1.2b-thinking-20260120:free
+2026-04-07 19:39:07 INFO OpenRouter model used: arcee-ai/trinity-large-preview:free
+2026-04-07 19:39:12 INFO Finished tailoring resumes. Now saving to CSV and uploading to Google Sheets.
+2026-04-07 19:39:14 INFO Successfully uploaded data to Google Sheets.
+2026-04-07 19:39:14 INFO Pipeline completed successfully
