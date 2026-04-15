@@ -7,9 +7,8 @@ logging.basicConfig(
 )
 
 import asyncio
-from pathlib import Path
 from scraper import fetch_jobs
-from transformer import load_resume, tailor_resume
+from transformer import load_resume, load_resume_header, tailor_resume
 from storage import save_jobs_to_csv
 from sheets import upload_to_sheets
 
@@ -32,7 +31,7 @@ async def run_pipeline():
         return
     logging.info(f"Fetched {len(jobs)} jobs")
     logging.info(f"Starting resume tailoring")
-    resume_header = Path("resume-header.md").read_text(encoding="utf-8")
+    resume_header = load_resume_header()
     resume_text = load_resume()
     logging.info(f"Starting to tailor resumes for each job")
 

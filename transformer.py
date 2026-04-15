@@ -25,6 +25,19 @@ def load_resume():
         return ""
 
 
+def load_resume_header():
+    path = os.getenv("RESUME_HEADER_FILE_PATH")
+    if not path:
+        logging.error("RESUME_HEADER_FILE_PATH not found in environment variables.")
+        return ""
+    try:
+        with open(path, "r") as f:
+            return f.read()
+    except Exception as e:
+        logging.error(f"Error loading resume header: {e}")
+        return ""
+
+
 async def tailor_resume(job_description, resume_text):
     if not resume_text:
         logging.warning("Resume text is empty. Skipping tailoring.")
