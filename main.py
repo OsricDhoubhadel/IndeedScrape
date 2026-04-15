@@ -17,9 +17,10 @@ async def tailor_job_resume(job, resume_header, resume_text):
     """Tailor resume for a single job."""
     description = job.get("descriptionText", "")
     print(f"Tailoring resume for job: {job.get('title', 'N/A')}")
-    tailored_resume = await tailor_resume(description, resume_text)
-    tailored_resume = f"{resume_header}\n\n{tailored_resume}"
+    result = await tailor_resume(description, resume_text)
+    tailored_resume = f"{resume_header}\n\n{result['tailored_resume']}"
     job["tailored_resume"] = tailored_resume
+    job["model_used"] = result["model_used"]
     return job
 
 async def run_pipeline():

@@ -4,6 +4,7 @@ import gspread
 from google.oauth2.service_account import Credentials
 import logging
 from dotenv import load_dotenv
+from storage import FIELD_ORDER
 
 load_dotenv()
 
@@ -20,19 +21,23 @@ def upload_to_sheets():
 
         # Load CSV
         csv_path = os.getenv("CSV_FILE_PATH")
-        df = pd.read_csv(csv_path)
+        df = pd.read_csv(csv_path, dtype=str)
 
-        # IMPORTANT: Replace NaN/Null with empty strings to avoid JSON errors
-        # This fixes the "Out of range float values" issue
+        # Replace NaN/Null with empty strings and keep canonical field order.
         df = df.fillna("")
+        for field in FIELD_ORDER:
+            if field not in df.columns:
+                df[field] = ""
 
-        # Convert DataFrame to a list of lists for gspread
+        ordered_columns = FIELD_ORDER + [c for c in df.columns if c not in FIELD_ORDER]
+        df = df.loc[:, ordered_columns]
+
         data_to_upload = [df.columns.values.tolist()] + df.values.tolist()
 
         # Update Sheet
         sheet.clear()
         sheet.update(data_to_upload)
-        
+
         logging.info("Successfully uploaded data to Google Sheets.")
 
     except Exception as e:
