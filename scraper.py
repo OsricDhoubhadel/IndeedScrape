@@ -1,4 +1,5 @@
 import os
+import json
 from apify_client import ApifyClient
 from dotenv import load_dotenv
 import logging
@@ -9,19 +10,8 @@ def fetch_jobs():
     try:
         client = ApifyClient(os.getenv("APIFY_API_TOKEN"))
 
-        run_input = {
-            "country": "ca",
-            "enableUniqueJobs": True,
-            "fromDays": "3",
-            "includeSimilarJobs": True,
-            # "jobType": "freelance",
-            "location": "Canada",
-            "maxRows": 10,
-            # "query": "Project Manager -jobbank -French -\"Développeur\" -\"Spécialiste\" -\"ingénierie\" -\"Professionnel\" -\"Analyste\"",
-            "query": "(Python OR Javascript)  -jobbank -cybersecurity -French -\"Développeur\" -\"Spécialiste\" -\"ingénierie\" -\"Professionnel\" -\"Analyste\" -\"Architecte\" -\"Administrateur\" -\"Support\" -\"Technicien\" -\"Testeur\" -\"QA\" -\"Assurance Qualité\" -\"développement\" -\"Programmeur\" -\"Spécialiste\"",
-            "radius": "100",
-            "sort": "date"
-        }
+        with open("Input/scraper_run_input.json", "r") as f:
+            run_input = json.load(f)
 
         run = client.actor("MXLpngmVpE8WTESQr").call(run_input=run_input)
 

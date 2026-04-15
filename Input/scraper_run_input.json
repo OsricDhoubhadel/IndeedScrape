@@ -1,0 +1,11 @@
+{
+    "country": "ca",
+    "enableUniqueJobs": true,
+    "fromDays": "3",
+    "includeSimilarJobs": true,
+    "location": "Canada",
+    "maxRows": 10,
+    "query": "(Python OR Javascript)  -jobbank -cybersecurity -French -\"Développeur\" -\"Spécialiste\" -\"ingénierie\" -\"Professionnel\" -\"Analyste\" -\"Architecte\" -\"Administrateur\" -\"Support\" -\"Technicien\" -\"Testeur\" -\"QA\" -\"Assurance Qualité\" -\"développement\" -\"Programmeur\" -\"Spécialiste\"",
+    "radius": "100",
+    "sort": "date"
+}

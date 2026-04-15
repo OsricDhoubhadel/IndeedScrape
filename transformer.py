@@ -35,41 +35,10 @@ async def tailor_resume(job_description, resume_text):
         logging.error("OPENROUTER_API_KEY not found in environment variables.")
         return {"tailored_resume": "", "model_used": ""}
 
-    prompt = f"""
-        You are a professional resume editor.
+    with open("Input/resume_tailoring_prompt.txt", "r") as f:
+        prompt_template = f.read()
 
-        Your task is to tailor the given resume to the job description.
-
-        CRITICAL RULES:
-        - Output ONLY the final resume. No explanations, no notes, no commentary.
-        - Do NOT include phrases like "Here is", "Tailored resume", "Notes", etc.
-        - Do NOT include markdown code blocks, YAML, or "---".
-        - Do NOT invent experience, roles, companies, or tools.
-        - If something is not in the original resume, do NOT add it.
-        - You may rephrase and reorder content, but must stay truthful.
-
-        FORMAT REQUIREMENTS:
-        - Keep a clean, standard resume format.
-        - Sections must be:
-        1. PROFESSIONAL SUMMARY
-        2. SKILLS
-        3. EXPERIENCE
-        4. EDUCATION
-        5. CERTIFICATIONS (if present)
-        - Use bullet points for experience.
-        - Keep length similar to original resume (no shortening or excessive expansion).
-
-        TAILORING RULES:
-        - Prioritize keywords and requirements from the job description.
-        - Emphasize relevant experience by rewording bullet points.
-        - Remove irrelevant or weak content if needed.
-        - Do NOT add fake metrics or numbers.
-
-        JOB DESCRIPTION:
-        {job_description}
-
-        ORIGINAL RESUME:
-        {resume_text}"""
+    prompt = prompt_template.format(job_description=job_description, resume_text=resume_text)
 
     headers = {
         "Authorization": f"Bearer {api_key}",
