@@ -1,16 +1,20 @@
 import logging
-logging.basicConfig(
-    filename='app.log',
-    level=logging.INFO,
-    format='%(asctime)s %(levelname)s %(message)s',
-    datefmt='%Y-%m-%d %H:%M:%S'
-)
-
 import asyncio
 from scraper import fetch_jobs
 from transformer import load_resume, load_resume_header, tailor_resume
 from storage import save_jobs_to_csv
 from sheets import upload_to_sheets
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+logging.basicConfig(
+    filename=os.getenv("LOG_FILE_PATH", "app.log"),
+    level=logging.INFO,
+    format='%(asctime)s %(levelname)s %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S'
+)
+
 
 async def tailor_job_resume(job, resume_header, resume_text):
     """Tailor resume for a single job."""
